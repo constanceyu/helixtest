@@ -1,0 +1,6 @@
+{
+  "main": "plain_html.js",
+  "requires": [
+    "plain_html.pre.js"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "request": {
+    "params": {},
+    "headers": {
+      "x-openwhisk-activation-id": "1a5db66d4f1a732cdbf3d4b860bdf030",
+      "x-request-id": "F731xAlnACsHZbzEv2xwawT+2pYAmeRt",
+      "x-backend-name": "localhost--F_Petridish",
+      "x-cdn-request-id": "f5248fd1-8147-2824-ae0e-6ccf9010a5e8",
+      "x-strain": "default",
+      "x-old-url": "/",
+      "x-repo-root-path": "",
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36",
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9",
+      "if-none-match": "W/\"c3c-567fA2N7fwOpjyrGx7ZInLXgwAc\""
+    },
+    "method": "get",
+    "path": "/index.html",
+    "extension": "html",
+    "selector": "",
+    "url": "/index.html",
+    "rootPath": "",
+    "pathInfo": "/index.html"
+  }
+}

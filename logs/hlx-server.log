@@ -1,0 +1,60 @@
+2019-06-18T20:46:37.363Z debug: Initialized helix-config with: 
+2019-06-18T20:46:37.364Z debug:      srcPath: /Users/conyu/helixtest/.hlx/pages/master/src
+2019-06-18T20:46:37.364Z debug:     buildDir: /Users/conyu/helixtest/.hlx/build
+2019-06-18T20:46:38.349Z debug: Launching helix simulation server for development...
+2019-06-18T20:46:38.355Z debug: Stopping helix simulation server..
+2019-06-18T20:46:56.030Z debug: Initialized helix-config with: 
+2019-06-18T20:46:56.030Z debug:      srcPath: /Users/conyu/helixtest/.hlx/pages/master/src
+2019-06-18T20:46:56.030Z debug:     buildDir: /Users/conyu/helixtest/.hlx/build
+2019-06-18T20:46:56.815Z debug: Launching helix simulation server for development...
+2019-06-18T20:46:56.821Z info: Starting helix-simulator v2.12.12
+2019-06-18T20:46:56.823Z info: Local Helix Dev server up and running: http://localhost:3000/
+2019-06-18T20:46:56.882Z debug: current strain: default: {
+  "code": "https://github.com/craeyu/helixtest.git#master",
+  "content": "https://github.com/craeyu/helixtest.git#master",
+  "static": "https://github.com/adobe/helix-pages.git/htdocs#master",
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-06-18T20:46:56.883Z debug: Launching local git server...
+2019-06-18T20:46:56.891Z debug: git emulating https://github.com/craeyu/helixtest.git via http://127.0.0.1:53987/helix/github.com--craeyu--helixtest.git#master from './'
+2019-06-18T20:46:56.892Z debug: git emulating https://github.com/adobe/helix-pages.git/htdocs via http://127.0.0.1:53987/helix/github.com--adobe--helix-pages.git#master from './.hlx/pages/master'
+2019-06-18T20:46:56.894Z debug: resolved /index.html -> html
+2019-06-18T20:46:57.875Z debug: Constructing HTML Pipeline
+2019-06-18T20:46:57.876Z debug: Creating pipeline
+2019-06-18T20:46:57.877Z debug: initializing ajv {"useDefaults":true,"coerceTypes":true}
+2019-06-18T20:46:57.897Z debug: - https://ns.adobe.com/helix/pipeline/action
+2019-06-18T20:46:57.897Z debug: - https://ns.adobe.com/helix/pipeline/content
+2019-06-18T20:46:57.897Z debug: - https://ns.adobe.com/helix/pipeline/context
+2019-06-18T20:46:57.898Z debug: - https://ns.adobe.com/helix/pipeline/mdast
+2019-06-18T20:46:57.898Z debug: - https://ns.adobe.com/helix/pipeline/meta
+2019-06-18T20:46:57.898Z debug: - https://ns.adobe.com/helix/pipeline/position
+2019-06-18T20:46:57.899Z debug: - https://ns.adobe.com/helix/pipeline/rawrequest
+2019-06-18T20:46:57.899Z debug: - https://ns.adobe.com/helix/pipeline/request
+2019-06-18T20:46:57.899Z debug: - https://ns.adobe.com/helix/pipeline/response
+2019-06-18T20:46:57.900Z debug: - https://ns.adobe.com/helix/pipeline/secrets
+2019-06-18T20:46:57.900Z debug: - https://ns.adobe.com/helix/pipeline/section
+2019-06-18T20:46:57.900Z debug: - https://ns.adobe.com/helix/pipeline/textcoordinates
+2019-06-18T20:46:57.900Z debug: ajv initialized
+2019-06-18T20:46:57.901Z debug: Coercing secrets
+2019-06-18T20:46:57.903Z debug: Running HTML pipeline
+2019-06-18T20:46:57.905Z debug: initializing ajv {}
+2019-06-18T20:46:57.910Z debug: - https://ns.adobe.com/helix/pipeline/action
+2019-06-18T20:46:57.910Z debug: - https://ns.adobe.com/helix/pipeline/content
+2019-06-18T20:46:57.910Z debug: - https://ns.adobe.com/helix/pipeline/context
+2019-06-18T20:46:57.911Z debug: - https://ns.adobe.com/helix/pipeline/mdast
+2019-06-18T20:46:57.911Z debug: - https://ns.adobe.com/helix/pipeline/meta
+2019-06-18T20:46:57.911Z debug: - https://ns.adobe.com/helix/pipeline/position
+2019-06-18T20:46:57.911Z debug: - https://ns.adobe.com/helix/pipeline/rawrequest
+2019-06-18T20:46:57.911Z debug: - https://ns.adobe.com/helix/pipeline/request
+2019-06-18T20:46:57.912Z debug: - https://ns.adobe.com/helix/pipeline/response
+2019-06-18T20:46:57.912Z debug: - https://ns.adobe.com/helix/pipeline/secrets
+2019-06-18T20:46:57.912Z debug: - https://ns.adobe.com/helix/pipeline/section
+2019-06-18T20:46:57.912Z debug: - https://ns.adobe.com/helix/pipeline/textcoordinates
+2019-06-18T20:46:57.912Z debug: ajv initialized
+2019-06-18T20:46:57.925Z debug: fetching Markdown from http://127.0.0.1:53987/raw/helix/github.com--craeyu--helixtest/master/index.md
+2019-06-18T20:46:57.940Z error: Could not find Markdown at http://127.0.0.1:53987/raw/helix/github.com--craeyu--helixtest/master/index.md
+2019-06-18T20:46:57.943Z info: Writing context dumps to: /Users/conyu/helixtest/logs/debug/context_dump_20190518-2046-57.0942_index.html_1a5db66d4f1a732cdbf3d4b860bdf030
+2019-06-18T20:46:57.945Z debug: fetching static resource from http://127.0.0.1:53987/raw/helix/github.com--craeyu--helixtest/master/index.html
+2019-06-18T20:46:57.949Z debug: fetching static resource from http://127.0.0.1:53987/raw/helix/github.com--adobe--helix-pages/master/htdocs/index.html
+2019-06-18T20:46:57.967Z error: Resource not found: /index.html

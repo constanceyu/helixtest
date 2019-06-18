@@ -1,0 +1,7 @@
+2019-06-18T20:46:56.885Z debug: configuration successfully read: <internal>
+2019-06-18T20:46:56.888Z info: [11225] HTTP: listening on port 53987
+2019-06-18T20:46:56.889Z debug: configuration successfully read: <internal>
+2019-06-18T20:46:56.890Z debug: configuration successfully read: <internal>
+2019-06-18T20:46:57.936Z debug: [rawHandler] resource not found: Could not find an object matching "master".
+2019-06-18T20:46:57.948Z debug: [rawHandler] resource not found: Could not find an object matching "master".
+2019-06-18T20:46:57.966Z debug: [rawHandler] resource not found: Not found: htdocs/index.html

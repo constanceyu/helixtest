@@ -1,0 +1,25 @@
+{
+  "request": {
+    "params": {},
+    "headers": {
+      "x-openwhisk-activation-id": "19ccc577f3ec55d41f61be590704b867",
+      "x-request-id": "GOncP9g5FoCZ1t7c6Pwabv3yUHvV+pyy",
+      "x-backend-name": "localhost--F_Petridish",
+      "x-cdn-request-id": "b582e489-3193-5560-88a2-8f95c05075b1",
+      "x-strain": "default",
+      "x-old-url": "/header.plain.html",
+      "x-repo-root-path": "",
+      "accept": "text/html, application/xhtml+xml, application/xml",
+      "host": "localhost:3000",
+      "accept-encoding": "gzip, deflate",
+      "connection": "close"
+    },
+    "method": "get",
+    "path": "/header.plain.html",
+    "extension": "html",
+    "selector": "plain",
+    "url": "/header.plain.html",
+    "rootPath": "",
+    "pathInfo": "/header.plain.html"
+  }
+}

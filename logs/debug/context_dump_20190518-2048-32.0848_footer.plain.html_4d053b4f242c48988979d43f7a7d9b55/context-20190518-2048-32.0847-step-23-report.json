@@ -1,0 +1,73 @@
+{
+  "request": {
+    "params": {},
+    "headers": {
+      "x-openwhisk-activation-id": "4d053b4f242c48988979d43f7a7d9b55",
+      "x-request-id": "6KcwrzviHzAZEdSTCn+7piWv1dMgds+w",
+      "x-backend-name": "localhost--F_Petridish",
+      "x-cdn-request-id": "4327ecad-36ac-3545-bed0-fe100677c1cd",
+      "x-strain": "default",
+      "x-old-url": "/footer.plain.html",
+      "x-repo-root-path": "",
+      "accept": "text/html, application/xhtml+xml, application/xml",
+      "host": "localhost:3000",
+      "accept-encoding": "gzip, deflate",
+      "connection": "close"
+    },
+    "method": "get",
+    "path": "/footer.plain.html",
+    "extension": "html",
+    "selector": "plain",
+    "url": "/footer.plain.html",
+    "rootPath": "",
+    "pathInfo": "/footer.plain.html"
+  },
+  "content": {},
+  "response": {
+    "status": 404
+  },
+  "error": {
+    "name": "StatusCodeError",
+    "statusCode": 404,
+    "message": "404 - \"not found.\"",
+    "error": "not found.",
+    "options": {
+      "uri": "http://127.0.0.1:54339/raw/helix/github.com--craeyu--helixtest/master/footer.md",
+      "json": false,
+      "timeout": 1000,
+      "time": true,
+      "simple": true,
+      "resolveWithFullResponse": false,
+      "transform2xxOnly": false
+    },
+    "response": {
+      "statusCode": 404,
+      "body": "not found.",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "10",
+        "etag": "W/\"a-2Jl1e2xUy2XTfkwo5C5qLldbASQ\"",
+        "date": "Tue, 18 Jun 2019 20:48:32 GMT",
+        "connection": "close"
+      },
+      "request": {
+        "uri": {
+          "protocol": "http:",
+          "slashes": true,
+          "auth": null,
+          "host": "127.0.0.1:54339",
+          "port": "54339",
+          "hostname": "127.0.0.1",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/raw/helix/github.com--craeyu--helixtest/master/footer.md",
+          "path": "/raw/helix/github.com--craeyu--helixtest/master/footer.md",
+          "href": "http://127.0.0.1:54339/raw/helix/github.com--craeyu--helixtest/master/footer.md"
+        },
+        "method": "GET",
+        "headers": {}
+      }
+    }
+  }
+}

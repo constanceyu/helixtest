@@ -58,3 +58,391 @@
 2019-06-18T20:46:57.945Z debug: fetching static resource from http://127.0.0.1:53987/raw/helix/github.com--craeyu--helixtest/master/index.html
 2019-06-18T20:46:57.949Z debug: fetching static resource from http://127.0.0.1:53987/raw/helix/github.com--adobe--helix-pages/master/htdocs/index.html
 2019-06-18T20:46:57.967Z error: Resource not found: /index.html
+2019-06-18T20:48:31.277Z debug: Initialized helix-config with: 
+2019-06-18T20:48:31.277Z debug:      srcPath: /Users/conyu/helixtest/.hlx/pages/master/src
+2019-06-18T20:48:31.277Z debug:     buildDir: /Users/conyu/helixtest/.hlx/build
+2019-06-18T20:48:32.075Z debug: Launching helix simulation server for development...
+2019-06-18T20:48:32.081Z info: Starting helix-simulator v2.12.12
+2019-06-18T20:48:32.083Z info: Local Helix Dev server up and running: http://localhost:3000/
+2019-06-18T20:48:32.137Z debug: current strain: default: {
+  "code": "https://github.com/craeyu/helixtest.git#master",
+  "content": "https://github.com/craeyu/helixtest.git#master",
+  "static": "https://github.com/adobe/helix-pages.git/htdocs#master",
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-06-18T20:48:32.138Z debug: Launching local git server...
+2019-06-18T20:48:32.147Z debug: git emulating https://github.com/craeyu/helixtest.git via http://127.0.0.1:54339/helix/github.com--craeyu--helixtest.git#master from './'
+2019-06-18T20:48:32.148Z debug: git emulating https://github.com/adobe/helix-pages.git/htdocs via http://127.0.0.1:54339/helix/github.com--adobe--helix-pages.git#master from './.hlx/pages/master'
+2019-06-18T20:48:32.149Z debug: resolved /index.html -> html
+2019-06-18T20:48:32.656Z debug: Constructing HTML Pipeline
+2019-06-18T20:48:32.656Z debug: Creating pipeline
+2019-06-18T20:48:32.657Z debug: initializing ajv {"useDefaults":true,"coerceTypes":true}
+2019-06-18T20:48:32.668Z debug: - https://ns.adobe.com/helix/pipeline/action
+2019-06-18T20:48:32.669Z debug: - https://ns.adobe.com/helix/pipeline/content
+2019-06-18T20:48:32.669Z debug: - https://ns.adobe.com/helix/pipeline/context
+2019-06-18T20:48:32.669Z debug: - https://ns.adobe.com/helix/pipeline/mdast
+2019-06-18T20:48:32.670Z debug: - https://ns.adobe.com/helix/pipeline/meta
+2019-06-18T20:48:32.670Z debug: - https://ns.adobe.com/helix/pipeline/position
+2019-06-18T20:48:32.670Z debug: - https://ns.adobe.com/helix/pipeline/rawrequest
+2019-06-18T20:48:32.670Z debug: - https://ns.adobe.com/helix/pipeline/request
+2019-06-18T20:48:32.671Z debug: - https://ns.adobe.com/helix/pipeline/response
+2019-06-18T20:48:32.671Z debug: - https://ns.adobe.com/helix/pipeline/secrets
+2019-06-18T20:48:32.671Z debug: - https://ns.adobe.com/helix/pipeline/section
+2019-06-18T20:48:32.671Z debug: - https://ns.adobe.com/helix/pipeline/textcoordinates
+2019-06-18T20:48:32.671Z debug: ajv initialized
+2019-06-18T20:48:32.672Z debug: Coercing secrets
+2019-06-18T20:48:32.674Z debug: Running HTML pipeline
+2019-06-18T20:48:32.675Z debug: initializing ajv {}
+2019-06-18T20:48:32.679Z debug: - https://ns.adobe.com/helix/pipeline/action
+2019-06-18T20:48:32.679Z debug: - https://ns.adobe.com/helix/pipeline/content
+2019-06-18T20:48:32.679Z debug: - https://ns.adobe.com/helix/pipeline/context
+2019-06-18T20:48:32.680Z debug: - https://ns.adobe.com/helix/pipeline/mdast
+2019-06-18T20:48:32.680Z debug: - https://ns.adobe.com/helix/pipeline/meta
+2019-06-18T20:48:32.680Z debug: - https://ns.adobe.com/helix/pipeline/position
+2019-06-18T20:48:32.680Z debug: - https://ns.adobe.com/helix/pipeline/rawrequest
+2019-06-18T20:48:32.681Z debug: - https://ns.adobe.com/helix/pipeline/request
+2019-06-18T20:48:32.681Z debug: - https://ns.adobe.com/helix/pipeline/response
+2019-06-18T20:48:32.681Z debug: - https://ns.adobe.com/helix/pipeline/secrets
+2019-06-18T20:48:32.681Z debug: - https://ns.adobe.com/helix/pipeline/section
+2019-06-18T20:48:32.681Z debug: - https://ns.adobe.com/helix/pipeline/textcoordinates
+2019-06-18T20:48:32.681Z debug: ajv initialized
+2019-06-18T20:48:32.693Z debug: fetching Markdown from http://127.0.0.1:54339/raw/helix/github.com--craeyu--helixtest/master/index.md
+2019-06-18T20:48:32.721Z debug: Parsing markdown from request body starting with ## TITLE
+2019-06-18T20:48:32.733Z debug: Parsing Markdown Metadata from 1 sections
+2019-06-18T20:48:32.737Z debug: Turning Markdown into HTML from object
+2019-06-18T20:48:32.798Z debug: Setting Surrogate-Key header
+2019-06-18T20:48:32.802Z debug: total processing time: 128.516676ms
+2019-06-18T20:48:32.802Z debug: timing: p00;dur=29.086627;desc=fetch ,p01;dur=6.279966;desc=parseMarkdown ,p02;dur=0.925831;desc=parseFrontmatter ,p03;dur=0.617913;desc=find ,p04;dur=3.286286;desc=reformat ,p05;dur=1.119928;desc=split ,p06;dur=2.323338;desc=getmetadata ,p07;dur=0.404691;desc=unwrap ,p08;dur=0.324941;desc=selectstrain ,p09;dur=0.313477;desc=selecttest ,p10;dur=19.749511;desc=html ,p11;dur=0.344533;desc=sanitize ,p12;dur=40.729599;desc=once ,p13;dur=0.359146;desc=setmime ,p14;dur=0.342755;desc=cache ,p15;dur=0.467868;desc=key ,p16;dur=0.325207;desc=tovdom ,p17;dur=0.268697;desc=rewrite ,p18;dur=0.848996;desc=addHeaders ,p19;dur=0.761551;desc=stringify ,p20;dur=0.670002;desc=flag ,p21;dur=0.347388;desc=debug ,p22;dur=0.088149;desc=report
+2019-06-18T20:48:32.811Z debug: current strain: default: {
+  "code": "https://github.com/craeyu/helixtest.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:54339",
+    "port": 54339,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--craeyu--helixtest",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:54339",
+    "port": 54339,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-06-18T20:48:32.812Z debug: resolved /footer.plain.html -> plain_html
+2019-06-18T20:48:32.812Z debug: current strain: default: {
+  "code": "https://github.com/craeyu/helixtest.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:54339",
+    "port": 54339,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--craeyu--helixtest",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:54339",
+    "port": 54339,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-06-18T20:48:32.812Z debug: resolved /header.plain.html -> plain_html
+2019-06-18T20:48:32.813Z debug: Constructing HTML Pipeline
+2019-06-18T20:48:32.814Z debug: Creating pipeline
+2019-06-18T20:48:32.814Z debug: Coercing secrets
+2019-06-18T20:48:32.814Z debug: Running HTML pipeline
+2019-06-18T20:48:32.815Z debug: fetching Markdown from http://127.0.0.1:54339/raw/helix/github.com--craeyu--helixtest/master/footer.md
+2019-06-18T20:48:32.817Z debug: Constructing HTML Pipeline
+2019-06-18T20:48:32.817Z debug: Creating pipeline
+2019-06-18T20:48:32.817Z debug: Coercing secrets
+2019-06-18T20:48:32.817Z debug: Running HTML pipeline
+2019-06-18T20:48:32.818Z debug: fetching Markdown from http://127.0.0.1:54339/raw/helix/github.com--craeyu--helixtest/master/header.md
+2019-06-18T20:48:32.847Z error: Could not find Markdown at http://127.0.0.1:54339/raw/helix/github.com--craeyu--helixtest/master/footer.md
+2019-06-18T20:48:32.849Z info: Writing context dumps to: /Users/conyu/helixtest/logs/debug/context_dump_20190518-2048-32.0848_footer.plain.html_4d053b4f242c48988979d43f7a7d9b55
+2019-06-18T20:48:32.850Z error: Could not find Markdown at http://127.0.0.1:54339/raw/helix/github.com--craeyu--helixtest/master/header.md
+2019-06-18T20:48:32.854Z debug: fetching static resource from http://127.0.0.1:54339/raw/helix/github.com--craeyu--helixtest/master/footer.plain.html
+2019-06-18T20:48:32.854Z info: Writing context dumps to: /Users/conyu/helixtest/logs/debug/context_dump_20190518-2048-32.0851_header.plain.html_19ccc577f3ec55d41f61be590704b867
+2019-06-18T20:48:32.856Z debug: fetching static resource from http://127.0.0.1:54339/raw/helix/github.com--craeyu--helixtest/master/header.plain.html
+2019-06-18T20:48:32.862Z debug: fetching static resource from http://127.0.0.1:54339/raw/helix/github.com--adobe--helix-pages/master/htdocs/footer.plain.html
+2019-06-18T20:48:32.865Z debug: fetching static resource from http://127.0.0.1:54339/raw/helix/github.com--adobe--helix-pages/master/htdocs/header.plain.html
+2019-06-18T20:48:32.875Z error: Resource not found: /footer.plain.html
+2019-06-18T20:48:32.877Z error: Resource not found: /header.plain.html
+2019-06-18T20:48:32.883Z debug: current strain: default: {
+  "code": "https://github.com/craeyu/helixtest.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:54339",
+    "port": 54339,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--craeyu--helixtest",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:54339",
+    "port": 54339,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-06-18T20:48:32.884Z debug: resolved /scrani.js -> js
+2019-06-18T20:48:32.884Z debug: current strain: default: {
+  "code": "https://github.com/craeyu/helixtest.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:54339",
+    "port": 54339,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--craeyu--helixtest",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:54339",
+    "port": 54339,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-06-18T20:48:32.884Z debug: resolved /style.css -> css
+2019-06-18T20:48:32.884Z debug: fetching static resource from http://127.0.0.1:54339/raw/helix/github.com--craeyu--helixtest/master/scrani.js
+2019-06-18T20:48:32.884Z debug: fetching static resource from http://127.0.0.1:54339/raw/helix/github.com--craeyu--helixtest/master/style.css
+2019-06-18T20:48:32.890Z debug: fetching static resource from http://127.0.0.1:54339/raw/helix/github.com--adobe--helix-pages/master/htdocs/style.css
+2019-06-18T20:48:32.891Z debug: fetching static resource from http://127.0.0.1:54339/raw/helix/github.com--adobe--helix-pages/master/htdocs/scrani.js
+2019-06-18T20:51:42.329Z debug: Initialized helix-config with: 
+2019-06-18T20:51:42.329Z debug:      srcPath: /Users/conyu/helixtest/.hlx/pages/master/src
+2019-06-18T20:51:42.330Z debug:     buildDir: /Users/conyu/helixtest/.hlx/build
+2019-06-18T20:51:43.373Z debug: Launching helix simulation server for development...
+2019-06-18T20:51:43.380Z info: Starting helix-simulator v2.12.12
+2019-06-18T20:51:43.382Z info: Local Helix Dev server up and running: http://localhost:3000/
+2019-06-18T20:51:43.445Z debug: current strain: default: {
+  "code": "https://github.com/craeyu/helixtest.git#master",
+  "content": "https://github.com/craeyu/helixtest.git#master",
+  "static": "https://github.com/adobe/helix-pages.git/htdocs#master",
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-06-18T20:51:43.446Z debug: Launching local git server...
+2019-06-18T20:51:43.455Z debug: git emulating https://github.com/craeyu/helixtest.git via http://127.0.0.1:54490/helix/github.com--craeyu--helixtest.git#master from './'
+2019-06-18T20:51:43.455Z debug: git emulating https://github.com/adobe/helix-pages.git/htdocs via http://127.0.0.1:54490/helix/github.com--adobe--helix-pages.git#master from './.hlx/pages/master'
+2019-06-18T20:51:43.457Z debug: resolved /index.html -> html
+2019-06-18T20:51:44.385Z debug: Constructing HTML Pipeline
+2019-06-18T20:51:44.385Z debug: Creating pipeline
+2019-06-18T20:51:44.386Z debug: initializing ajv {"useDefaults":true,"coerceTypes":true}
+2019-06-18T20:51:44.404Z debug: - https://ns.adobe.com/helix/pipeline/action
+2019-06-18T20:51:44.405Z debug: - https://ns.adobe.com/helix/pipeline/content
+2019-06-18T20:51:44.405Z debug: - https://ns.adobe.com/helix/pipeline/context
+2019-06-18T20:51:44.405Z debug: - https://ns.adobe.com/helix/pipeline/mdast
+2019-06-18T20:51:44.406Z debug: - https://ns.adobe.com/helix/pipeline/meta
+2019-06-18T20:51:44.406Z debug: - https://ns.adobe.com/helix/pipeline/position
+2019-06-18T20:51:44.406Z debug: - https://ns.adobe.com/helix/pipeline/rawrequest
+2019-06-18T20:51:44.407Z debug: - https://ns.adobe.com/helix/pipeline/request
+2019-06-18T20:51:44.407Z debug: - https://ns.adobe.com/helix/pipeline/response
+2019-06-18T20:51:44.407Z debug: - https://ns.adobe.com/helix/pipeline/secrets
+2019-06-18T20:51:44.408Z debug: - https://ns.adobe.com/helix/pipeline/section
+2019-06-18T20:51:44.408Z debug: - https://ns.adobe.com/helix/pipeline/textcoordinates
+2019-06-18T20:51:44.408Z debug: ajv initialized
+2019-06-18T20:51:44.408Z debug: Coercing secrets
+2019-06-18T20:51:44.411Z debug: Running HTML pipeline
+2019-06-18T20:51:44.413Z debug: initializing ajv {}
+2019-06-18T20:51:44.417Z debug: - https://ns.adobe.com/helix/pipeline/action
+2019-06-18T20:51:44.418Z debug: - https://ns.adobe.com/helix/pipeline/content
+2019-06-18T20:51:44.418Z debug: - https://ns.adobe.com/helix/pipeline/context
+2019-06-18T20:51:44.418Z debug: - https://ns.adobe.com/helix/pipeline/mdast
+2019-06-18T20:51:44.419Z debug: - https://ns.adobe.com/helix/pipeline/meta
+2019-06-18T20:51:44.419Z debug: - https://ns.adobe.com/helix/pipeline/position
+2019-06-18T20:51:44.419Z debug: - https://ns.adobe.com/helix/pipeline/rawrequest
+2019-06-18T20:51:44.419Z debug: - https://ns.adobe.com/helix/pipeline/request
+2019-06-18T20:51:44.419Z debug: - https://ns.adobe.com/helix/pipeline/response
+2019-06-18T20:51:44.420Z debug: - https://ns.adobe.com/helix/pipeline/secrets
+2019-06-18T20:51:44.420Z debug: - https://ns.adobe.com/helix/pipeline/section
+2019-06-18T20:51:44.420Z debug: - https://ns.adobe.com/helix/pipeline/textcoordinates
+2019-06-18T20:51:44.420Z debug: ajv initialized
+2019-06-18T20:51:44.433Z debug: fetching Markdown from http://127.0.0.1:54490/raw/helix/github.com--craeyu--helixtest/master/index.md
+2019-06-18T20:51:44.468Z debug: Parsing markdown from request body starting with ![helix bridge](https://images.unsplash.com/photo-1560296742-763872d541f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3056&q=80)
+2019-06-18T20:51:44.480Z warn: Whitelist forbids embedding of URL: https://images.unsplash.com/photo-1560296742-763872d541f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3056&q=80
+2019-06-18T20:51:44.485Z debug: Parsing Markdown Metadata from 1 sections
+2019-06-18T20:51:44.489Z debug: Turning Markdown into HTML from object
+2019-06-18T20:51:44.556Z debug: Setting Surrogate-Key header
+2019-06-18T20:51:44.561Z debug: total processing time: 150.33981200000005ms
+2019-06-18T20:51:44.561Z debug: timing: p00;dur=36.17021299999999;desc=fetch ,p01;dur=7.14419;desc=parseMarkdown ,p02;dur=1.105201;desc=parseFrontmatter ,p03;dur=3.522882;desc=find ,p04;dur=3.426652;desc=reformat ,p05;dur=1.259851;desc=split ,p06;dur=2.679615;desc=getmetadata ,p07;dur=0.450432;desc=unwrap ,p08;dur=0.358672;desc=selectstrain ,p09;dur=0.350515;desc=selecttest ,p10;dur=19.611018;desc=html ,p11;dur=0.39767;desc=sanitize ,p12;dur=46.868647;desc=once ,p13;dur=0.405742;desc=setmime ,p14;dur=0.377811;desc=cache ,p15;dur=0.505251;desc=key ,p16;dur=0.373177;desc=tovdom ,p17;dur=0.301088;desc=rewrite ,p18;dur=0.908742;desc=addHeaders ,p19;dur=0.840956;desc=stringify ,p20;dur=0.995512;desc=flag ,p21;dur=0.382429;desc=debug ,p22;dur=0.096747;desc=report
+2019-06-18T20:51:44.571Z debug: current strain: default: {
+  "code": "https://github.com/craeyu/helixtest.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:54490",
+    "port": 54490,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--craeyu--helixtest",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:54490",
+    "port": 54490,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-06-18T20:51:44.571Z debug: resolved /footer.plain.html -> plain_html
+2019-06-18T20:51:44.572Z debug: current strain: default: {
+  "code": "https://github.com/craeyu/helixtest.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:54490",
+    "port": 54490,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--craeyu--helixtest",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:54490",
+    "port": 54490,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-06-18T20:51:44.572Z debug: resolved /header.plain.html -> plain_html
+2019-06-18T20:51:44.573Z debug: Constructing HTML Pipeline
+2019-06-18T20:51:44.573Z debug: Creating pipeline
+2019-06-18T20:51:44.573Z debug: Coercing secrets
+2019-06-18T20:51:44.574Z debug: Running HTML pipeline
+2019-06-18T20:51:44.574Z debug: fetching Markdown from http://127.0.0.1:54490/raw/helix/github.com--craeyu--helixtest/master/footer.md
+2019-06-18T20:51:44.582Z debug: Constructing HTML Pipeline
+2019-06-18T20:51:44.582Z debug: Creating pipeline
+2019-06-18T20:51:44.582Z debug: Coercing secrets
+2019-06-18T20:51:44.582Z debug: Running HTML pipeline
+2019-06-18T20:51:44.582Z debug: fetching Markdown from http://127.0.0.1:54490/raw/helix/github.com--craeyu--helixtest/master/header.md
+2019-06-18T20:51:44.609Z error: Could not find Markdown at http://127.0.0.1:54490/raw/helix/github.com--craeyu--helixtest/master/header.md
+2019-06-18T20:51:44.611Z info: Writing context dumps to: /Users/conyu/helixtest/logs/debug/context_dump_20190518-2051-44.0610_header.plain.html_214a9b0471f4d474978d6ab62b340c36
+2019-06-18T20:51:44.615Z debug: fetching static resource from http://127.0.0.1:54490/raw/helix/github.com--craeyu--helixtest/master/header.plain.html
+2019-06-18T20:51:44.616Z error: Could not find Markdown at http://127.0.0.1:54490/raw/helix/github.com--craeyu--helixtest/master/footer.md
+2019-06-18T20:51:44.617Z info: Writing context dumps to: /Users/conyu/helixtest/logs/debug/context_dump_20190518-2051-44.0616_footer.plain.html_a851fd54dde4c29310f72003b83c29bd
+2019-06-18T20:51:44.619Z debug: fetching static resource from http://127.0.0.1:54490/raw/helix/github.com--craeyu--helixtest/master/footer.plain.html
+2019-06-18T20:51:44.624Z debug: fetching static resource from http://127.0.0.1:54490/raw/helix/github.com--adobe--helix-pages/master/htdocs/header.plain.html
+2019-06-18T20:51:44.627Z debug: fetching static resource from http://127.0.0.1:54490/raw/helix/github.com--adobe--helix-pages/master/htdocs/footer.plain.html
+2019-06-18T20:51:44.640Z error: Resource not found: /header.plain.html
+2019-06-18T20:51:44.642Z error: Resource not found: /footer.plain.html
+2019-06-18T20:51:44.649Z debug: current strain: default: {
+  "code": "https://github.com/craeyu/helixtest.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:54490",
+    "port": 54490,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--craeyu--helixtest",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:54490",
+    "port": 54490,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-06-18T20:51:44.649Z debug: resolved /style.css -> css
+2019-06-18T20:51:44.649Z debug: current strain: default: {
+  "code": "https://github.com/craeyu/helixtest.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:54490",
+    "port": 54490,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--craeyu--helixtest",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:54490",
+    "port": 54490,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-06-18T20:51:44.649Z debug: resolved /scrani.js -> js
+2019-06-18T20:51:44.650Z debug: fetching static resource from http://127.0.0.1:54490/raw/helix/github.com--craeyu--helixtest/master/style.css
+2019-06-18T20:51:44.650Z debug: fetching static resource from http://127.0.0.1:54490/raw/helix/github.com--craeyu--helixtest/master/scrani.js
+2019-06-18T20:51:44.655Z debug: fetching static resource from http://127.0.0.1:54490/raw/helix/github.com--adobe--helix-pages/master/htdocs/style.css
+2019-06-18T20:51:44.657Z debug: fetching static resource from http://127.0.0.1:54490/raw/helix/github.com--adobe--helix-pages/master/htdocs/scrani.js
+2019-06-18T20:51:52.928Z debug: current strain: default: {
+  "code": "https://github.com/craeyu/helixtest.git#master",
+  "content": {
+    "protocol": "http",
+    "host": "127.0.0.1:54490",
+    "port": 54490,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--craeyu--helixtest",
+    "ref": "master"
+  },
+  "static": {
+    "protocol": "http",
+    "host": "127.0.0.1:54490",
+    "port": 54490,
+    "hostname": "127.0.0.1",
+    "owner": "helix",
+    "repo": "github.com--adobe--helix-pages",
+    "ref": "master",
+    "path": "/htdocs"
+  },
+  "directoryIndex": "index.html",
+  "name": "default"
+}
+2019-06-18T20:51:52.928Z debug: resolved /style.css -> css
+2019-06-18T20:51:52.928Z debug: fetching static resource from http://127.0.0.1:54490/raw/helix/github.com--craeyu--helixtest/master/style.css
+2019-06-18T20:51:52.933Z debug: fetching static resource from http://127.0.0.1:54490/raw/helix/github.com--adobe--helix-pages/master/htdocs/style.css
